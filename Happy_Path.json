@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "d0f531b1-e74e-41fd-ad41-89145be6fc3e",
+		"_postman_id": "d20d05c6-c862-4fff-a8e1-07b9d6cfd3ee",
 		"name": "Happy Path",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-d0f531b1-e74e-41fd-ad41-89145be6fc3e?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-d20d05c6-c862-4fff-a8e1-07b9d6cfd3ee?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -460,7 +460,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": null,\r\n    \"packageId\": \"{{$randomPassword}}\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\":\"$573003004001\" ,\r\n      \"amount\": 100.00,\r\n      \"description\": null,\r\n      \"targetBank\": \"AG1525AXCS\",\r\n      \"merchantId\": \"AG1525AXCS2AG1525A76434343423423432432432\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    },\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\":\"$573003004001\" ,\r\n      \"amount\": 100.00,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"AG1525AXCS\",\r\n      \"merchantId\": \"AG1525AXCS2AG1525A76434343423423432432432\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"DISPERSION\",\r\n    \"createDate\": null,\r\n    \"packageId\": \"{{$randomPassword}}\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\":\"$573003004001\" ,\r\n      \"amount\": 100.00,\r\n      \"description\": null,\r\n      \"targetBank\": \"AG1525AXCS\",\r\n      \"merchantId\": \"AG1525AXCS2AG1525A76434343423423432432432\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
