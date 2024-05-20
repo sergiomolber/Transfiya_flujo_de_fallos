@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "2f4c1dd3-3aeb-4a9f-8fe1-fec106da4960",
+		"name": "Transfiya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31315694",
+		"_collection_link": "https://warped-rocket-761289.postman.co/workspace/TRANSFIYA-FLUJO-DE-FALLOS~5cddc94e-3038-425e-98aa-41519173c0b6/collection/31315694-2f4c1dd3-3aeb-4a9f-8fe1-fec106da4960?source=collection_link"
+	},
+	"item": [
+		{
+			"name": "CALLBACK QA Happy Patch",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "client-id",
+						"value": "65274d8ea32d7c1c3410a6b2792c277f",
+						"type": "text"
+					},
+					{
+						"key": "client-secret",
+						"value": "cbd2e69a83aa33abe80684a49260315a",
+						"type": "text"
+					},
+					{
+						"key": "message-uid",
+						"value": "54605465046",
+						"type": "text"
+					},
+					{
+						"key": "api-key",
+						"value": "757ff2d4-d02e-4395-9941-a962ab162e27",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \"created\": \"2023-12-20T05:58:55.475Z\",\r\n    \"updated\": \"2023-12-20T05:58:55.475Z\",\r\n    \"amount\": 10.00,\r\n    \"symbol\": \"$tin\",\r\n    \"errorCode\": \"1013\",\r\n   \"errorDesc\": \"Some Desc\"\r\n}   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://business.transfiya.com.co/ext/prb/ext/transfiya/v1/transfers/zPSaK3TzhqfPMitnm/callback",
+					"protocol": "https",
+					"host": [
+						"business",
+						"transfiya",
+						"com",
+						"co"
+					],
+					"path": [
+						"ext",
+						"prb",
+						"ext",
+						"transfiya",
+						"v1",
+						"transfers",
+						"zPSaK3TzhqfPMitnm",
+						"callback"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,9 @@
+﻿created,updated,errorCode,errorDesc,symbol,amount,comentario
+null,"""2023-12-20T05:58:55.475Z""","""1013""","""Prueba""","""$tin""",10,Validar campo Created al enviarlo nulo
+"""2023-12-20T05:58:55.475Z""",null,"""1013""","""Prueba""","""$tin""",10,Validar campo update al enviarlo nulo
+"""2023-12-20T05:58:55.475Z""","""2023-12-20T05:58:55.475Z""",null,"""Prueba""","""$tin""",10,Validar campo errorCode  al enviarlo nulo
+"""2023-12-20T05:58:55.475Z""","""2023-12-20T05:58:55.475Z""","""1013""",null,"""$tin""",10,Validar campo update al enviarlo nulo
+"""2023-12-20T05:58:55.475Z""","""2023-12-20T05:58:55.475Z""","""1013""","""Prueba""",null,10,Validar campo update al enviarlo nulo
+"""2023-12-20T05:58:55.475Z""","""2023-12-20T05:58:55.475Z""","""1013""","""Prueba""","""$tin""",null,Validar campo amount al enviarlo con valores nulos
+"""2023-12-20T05:58:55.475Z""","""2023-12-20T05:58:55.475Z""","""1013""","""Prueba""","""$tin""",-10,Validar campo amount al enviarlo con valores negativos
+"""2023-12-20T05:58:55.475Z""","""2023-12-20T05:58:55.475Z""","""1013""","""Prueba""","""$tin""",0,Validar campo amount al enviarlo con valor igual a 0
