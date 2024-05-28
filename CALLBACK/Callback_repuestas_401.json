@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "66530c6d-98e8-40fc-bddd-55ade777f817",
+		"_postman_id": "dc372c46-4e00-4dc6-893d-c48b7ee9da2d",
 		"name": "Transfiya Copy 2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "31315694",
-		"_collection_link": "https://warped-rocket-761289.postman.co/workspace/TRANSFIYA-FLUJO-DE-FALLOS~5cddc94e-3038-425e-98aa-41519173c0b6/collection/31315694-66530c6d-98e8-40fc-bddd-55ade777f817?source=collection_link"
+		"_exporter_id": "29460625",
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-dc372c46-4e00-4dc6-893d-c48b7ee9da2d?source=collection_link"
 	},
 	"item": [
 		{
@@ -16,7 +16,10 @@
 						"exec": [
 							"pm.test(\"Status code is 401\", function () {\r",
 							"    pm.response.to.have.status(401);\r",
-							"});"
+							"});\r",
+							"// Imprimir el comentario en la consola de Newman\r",
+							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));\r",
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -28,23 +31,19 @@
 				"header": [
 					{
 						"key": "client-id",
-						"value": "{{client-id}}",
-						"type": "text"
+						"value": "{{client-id}}"
 					},
 					{
 						"key": "client-secret",
-						"value": "{{client-secret}}",
-						"type": "text"
+						"value": "{{client-secret}}"
 					},
 					{
 						"key": "message-uid",
-						"value": "54605465046",
-						"type": "text"
+						"value": "54605465046"
 					},
 					{
 						"key": "api-key",
-						"value": "{{api-key}}",
-						"type": "text"
+						"value": "{{api-key}}"
 					}
 				],
 				"body": {
