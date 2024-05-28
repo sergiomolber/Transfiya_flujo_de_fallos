@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "5cea4ca9-4799-41fe-8adf-32d208abaa89",
+		"_postman_id": "5de0f1d4-d86c-42e3-b65d-ed67e4de8f30",
 		"name": "Varios",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-5cea4ca9-4799-41fe-8adf-32d208abaa89?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-5de0f1d4-d86c-42e3-b65d-ed67e4de8f30?source=collection_link"
 	},
 	"item": [
 		{
@@ -9754,7 +9754,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": null,\r\n    \"packageId\": null,\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"source\": \"$573003004001\",\r\n      \"target\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"amount\": 100.00,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"AG1525AXCS\",\r\n      \"merchantId\": \"AG1525AXCS2AG1525A76434343423423432432432\",\r\n      \"sourceChannel\": \"POS\",\r\n     \r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": null,\r\n    \"packageId\": null,\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"source\": \"$573003004001\",\r\n      \"target\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"amount\": 100.00,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"AG1525AXCS\",\r\n      \"merchantId\": \"AG1525AXCS2AG1525A76434343423423432432432\",\r\n      \r\n     \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
