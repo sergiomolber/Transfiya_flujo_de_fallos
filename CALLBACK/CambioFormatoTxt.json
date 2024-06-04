@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "57278670-a929-4beb-a73e-e4c78447de2c",
+		"_postman_id": "e3088006-cb8a-4c5e-80f9-ed1757df692d",
 		"name": "Formato Jason",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "31315694",
-		"_collection_link": "https://warped-rocket-761289.postman.co/workspace/TRANSFIYA~a1429b6e-9f36-49cc-b10a-6933c9252c77/collection/31315694-57278670-a929-4beb-a73e-e4c78447de2c?source=collection_link"
+		"_exporter_id": "29460625",
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-e3088006-cb8a-4c5e-80f9-ed1757df692d?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -14,8 +14,8 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 400\", function () {\r",
-							"    pm.response.to.have.status(400);\r",
+							"pm.test(\"Status code is 415\", function () {\r",
+							"    pm.response.to.have.status(415);\r",
 							"});\r",
 							" \r",
 							""
@@ -30,23 +30,19 @@
 				"header": [
 					{
 						"key": "client-id",
-						"value": "65274d8ea32d7c1c3410a6b2792c277f",
-						"type": "text"
+						"value": "65274d8ea32d7c1c3410a6b2792c277f"
 					},
 					{
 						"key": "client-secret",
-						"value": "cbd2e69a83aa33abe80684a49260315a",
-						"type": "text"
+						"value": "cbd2e69a83aa33abe80684a49260315a"
 					},
 					{
 						"key": "message-uid",
-						"value": "54605465046",
-						"type": "text"
+						"value": "54605465046"
 					},
 					{
 						"key": "api-key",
-						"value": "757ff2d4-d02e-4395-9941-a962ab162e27",
-						"type": "text"
+						"value": "757ff2d4-d02e-4395-9941-a962ab162e27"
 					}
 				],
 				"body": {
