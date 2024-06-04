@@ -4,7 +4,7 @@
 		"name": "Varios",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-b7ec2326-aabb-4836-b0c7-30ddbc527f67?source=collection_link"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-b7ec2326-aabb-4836-b0c7-30ddbc527f67?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -1226,8 +1226,8 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 400\", function () {\r",
-							"    pm.response.to.have.status(400);\r",
+							"pm.test(\"Status code is 415\", function () {\r",
+							"    pm.response.to.have.status(415);\r",
 							"});"
 						],
 						"type": "text/javascript",
@@ -5276,7 +5276,7 @@
 							"pm.environment.set(\"codenum\", codenum);\r",
 							"\r",
 							"pm.test(\"La variable de entorno 'code' es 1018\", function () {\r",
-							"  pm.expect(codenum).to.equal(1018); // Verifica si la variable es igual a 400\r",
+							"  pm.expect(codenum).to.equal(1018); // Verifica si la variable es igual a 1018\r",
 							"});"
 						],
 						"type": "text/javascript",
@@ -6492,13 +6492,13 @@
 							"pm.test(\"Status code is 400\", function () {\r",
 							"    pm.response.to.have.status(400);\r",
 							"});\r",
-							"// captura la variable code es igual a 400\r",
+							"// captura la variable code es igual a 1018\r",
 							"const responseJson = pm.response.json();\r",
 							"const code = responseJson.errors[0].code;\r",
 							"const codenum = Number(code);\r",
 							"pm.environment.set(\"codenum\", codenum);\r",
 							"\r",
-							" // Verifica que el código de estado sea 400\r",
+							" // Verifica que el código de estado sea 1020\r",
 							"pm.test(\"Código de estado es 1020\", function() {\r",
 							"    pm.expect(codenum).to.be.oneOf([1020]);\r",
 							"});"

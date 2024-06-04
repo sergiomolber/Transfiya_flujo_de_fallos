@@ -7,8 +7,8 @@ null,null,null,null,null,null,null,null,null,null,null,null,Validar campo type a
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded40823""",null,null,null,null,null,null,null,null,null,null,Validar campo sourceId al exceder la longitud maxima (36 caracteres)
 """COLLECTION""",null,null,null,null,null,null,null,null,null,null,null,Validar campo sourceId al enviarlo con datos nulos
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""""",null,null,null,null,null,null,null,null,Validar campo source al enviarlo vacio
-"""COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""",null,null,null,null,null,null,null,null,null,Validar campo source al exceder la longitud maxima
-"""COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001$573003004001$573003004001$57300300400""",null,null,null,null,null,null,null,null,Validar campo source al enviarlo con datos nulos
+"""COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""",null,null,null,null,null,null,null,null,null,Validar campo source al enviarlo con datos nulos
+"""COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001$573003004001$573003004001$57300300400""",null,null,null,null,null,null,null,null,Validar campo source al exceder la longitud maxima
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001""","""""",null,null,null,null,null,null,null,Validar campo target al enviarlo vacio
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001""","""wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfVwcc7vHUcnYpJcba8e""",null,null,null,null,null,null,null,Validar campo target al exceder la longitud maxima
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001""",null,null,null,null,null,null,null,null,Validar campo target al enviarlo con datos nulos
