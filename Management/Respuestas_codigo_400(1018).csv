@@ -1,6 +1,6 @@
 type,sourceId,transferId,source,target,amount,description,targetBank,merchantId,sourceChannel,sourceIdt,createDate,comentario
 null,null,null,null,null,null,null,null,null,null,null,null,Validar campo type al enviarlo con datos nulos
-""""COLLECTION""",null,null,null,null,null,null,null,null,null,null,null,Validar campo sourceId al enviarlo con datos nulos
+"""COLLECTION""",null,null,null,null,null,null,null,null,null,null,null,Validar campo sourceId al enviarlo con datos nulos
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""",null,null,null,null,null,null,null,null,null,Validar campo source al enviarlo con datos nulos
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001""",null,null,null,null,null,null,null,null,Validar campo target al enviarlo con datos nulos
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001""","""wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV""",null,null,null,null,null,null,null,Validar campo amount al enviarlo con valores nulos
