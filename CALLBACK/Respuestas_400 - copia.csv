@@ -1,0 +1,13 @@
+﻿api-key,transferId,tx_id,status,type,amount,comentario
+757ff2d4-d02e-4395-9941-a962ab162e27,"""""","""BS9UFNPEG3BlTTirV""","""COMPLETED""","""REQUEST""",10,Validar campo transferId al enviarlo vacio
+757ff2d4-d02e-4395-9941-a962ab162e27,null,"""BS9UFNPEG3BlTTirV""","""COMPLETED""","""REQUEST""",10,transferId*-Validar-campo TX_ID al enviarlo con datos nulos
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""""","""COMPLETED""","""REQUEST""",10,Validar campo tx Id al enviarlo vacio
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""",null,"""COMPLETED""","""REQUEST""",10,Validar campo tx Id al enviarlo con datos nulos
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""BS9UFNPEG3BlTTirV""","""""","""REQUEST""",10,Validar campo status al enviarlo vacio
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""BS9UFNPEG3BlTTirV""",null,"""REQUEST""",10,Validar campo status al enviarlo con datos nulos
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""BS9UFNPEG3BlTTirV""","""COMPLETED""","""""",10,Validar campo type al enviarlo vacio
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""BS9UFNPEG3BlTTirV""","""COMPLETED""",null,10,Validar campo type al enviarlo con datos nulos
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""BS9UFNPEG3BlTTirV""","""COMPLETED""","""REQUEST""",-10,Validar campo amount al enviarlo con valores negativos
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""BS9UFNPEG3BlTTirV""","""COMPLETED""","""REQUEST""",0,Validar campo amount al enviarlo con valor 0
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""BS9UFNPEG3BlTTirV""","""COMPLETED""","""REQUEST""","""abc""",Validar campo amount al enviarlo con valores alfabeticos
+757ff2d4-d02e-4395-9941-a962ab162e27,"""03c2acf7-2eae-47c0-928f-67611d7dded4""","""BS9UFNPEG3BlTTirV""","""COMPLETED""","""REQUEST""","""##%&/""",Validar campo amount al enviarlo con caracteres especiales

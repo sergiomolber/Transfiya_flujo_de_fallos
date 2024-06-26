@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "97295b3a-0e8f-4243-842f-ff049e0ff4a7",
+		"_postman_id": "1bbffa21-ec8a-4864-9ea8-f47c9d30066e",
 		"name": "New Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/TRANSFIYA-TIME~e6fb1c04-db29-4b23-bf0b-3e5042f97027/collection/29460625-97295b3a-0e8f-4243-842f-ff049e0ff4a7?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/federado-automatizado~807d004f-834d-4321-8e8c-b996ae6059d7/collection/29460625-1bbffa21-ec8a-4864-9ea8-f47c9d30066e?source=collection_link"
 	},
 	"item": [
 		{
@@ -21,7 +21,8 @@
 							"pm.test(\"Código de estado es 400 o 401\", function() {\r",
 							"    pm.expect(statusCode).to.be.oneOf([400, 401]);\r",
 							"});\r",
-							""
+							"// Imprimir el comentario en la consola de Newman\r",
+							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -90,19 +91,19 @@
 						"method": "POST",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
 								"key": "Client-Id",
-								"value": "<API Key>"
+								"value": "<API Key>",
+								"description": "Added as a part of security scheme: apikey"
 							},
 							{
-								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json",
 								"key": "accept",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json"
 							},
 							{
-								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f.",
 								"key": "message-uid",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f."
 							}
 						],
 						"body": {
@@ -144,19 +145,19 @@
 						"method": "POST",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
 								"key": "Client-Id",
-								"value": "<API Key>"
+								"value": "<API Key>",
+								"description": "Added as a part of security scheme: apikey"
 							},
 							{
-								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json",
 								"key": "accept",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json"
 							},
 							{
-								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f.",
 								"key": "message-uid",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f."
 							}
 						],
 						"body": {
@@ -198,19 +199,19 @@
 						"method": "POST",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
 								"key": "Client-Id",
-								"value": "<API Key>"
+								"value": "<API Key>",
+								"description": "Added as a part of security scheme: apikey"
 							},
 							{
-								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json",
 								"key": "accept",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json"
 							},
 							{
-								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f.",
 								"key": "message-uid",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f."
 							}
 						],
 						"body": {
@@ -252,19 +253,19 @@
 						"method": "POST",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
 								"key": "Client-Id",
-								"value": "<API Key>"
+								"value": "<API Key>",
+								"description": "Added as a part of security scheme: apikey"
 							},
 							{
-								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json",
 								"key": "accept",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json"
 							},
 							{
-								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f.",
 								"key": "message-uid",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f."
 							}
 						],
 						"body": {
@@ -306,19 +307,19 @@
 						"method": "POST",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
 								"key": "Client-Id",
-								"value": "<API Key>"
+								"value": "<API Key>",
+								"description": "Added as a part of security scheme: apikey"
 							},
 							{
-								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json",
 								"key": "accept",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json"
 							},
 							{
-								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f.",
 								"key": "message-uid",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f."
 							}
 						],
 						"body": {
@@ -360,19 +361,19 @@
 						"method": "POST",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
 								"key": "Client-Id",
-								"value": "<API Key>"
+								"value": "<API Key>",
+								"description": "Added as a part of security scheme: apikey"
 							},
 							{
-								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json",
 								"key": "accept",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "Representa el formato de mensajería que se espera en la respuesta. Ejemplo: application/json"
 							},
 							{
-								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f.",
 								"key": "message-uid",
-								"value": "aute amet in qui enim"
+								"value": "aute amet in qui enim",
+								"description": "(Required) Identificador del mensaje se usa para trazabilidad. Este identificador permite identificar los logs de los llamados a las APIs en los repositorios de logs, recomienda enviar un UUID para este valor. Ejemplo: c4e6bd04-5149-11e7-b114-12654765af2f."
 							}
 						],
 						"body": {
