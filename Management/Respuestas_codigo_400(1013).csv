@@ -1,6 +1,6 @@
 type,sourceId,transferId,source,target,amount,description,targetBank,merchantId,sourceChannel,sourceIdt,createDate,comentario
 """COLLECTIONCOLLECTIONOLLECTIONCOLLECTION""",null,null,null,null,null,null,null,null,null,null,null,Validar campo type al exceder la longitud maxima
-PRUEBA,null,null,null,null,null,null,null,null,null,null,null,Validar campo type al enviar un valor diferente a COLLECTION y DISPERSION
+"""PRUEBA""",null,null,null,null,null,null,null,null,null,null,null,Validar campo type al enviar un valor diferente a COLLECTION y DISPERSION
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded40823""",null,null,null,null,null,null,null,null,null,null,Validar campo sourceId al exceder la longitud maxima (36 caracteres)
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001$573003004001$573003004001$57300300400""",null,null,null,null,null,null,null,null,Validar campo source al exceder la longitud maxima
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""$573003004001""","""wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfVwcc7vHUcnYpJcba8e""",null,null,null,null,null,null,null,Validar campo target al exceder la longitud maxima
