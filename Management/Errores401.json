@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "1bbffa21-ec8a-4864-9ea8-f47c9d30066e",
+		"_postman_id": "e1f4c175-021e-4900-bb19-4c9334efba0b",
 		"name": "New Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/federado-automatizado~807d004f-834d-4321-8e8c-b996ae6059d7/collection/29460625-1bbffa21-ec8a-4864-9ea8-f47c9d30066e?source=collection_link"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-flujo-de-fallos~a9f67874-ef94-4331-b5a2-d649a940338c/collection/29460625-e1f4c175-021e-4900-bb19-4c9334efba0b?source=collection_link"
 	},
 	"item": [
 		{
@@ -14,13 +14,10 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"// Obtiene el código de estado de la respuesta\r",
-							"const statusCode = pm.response.code;\r",
-							" \r",
-							"// Verifica que el código de estado sea 200 o 400\r",
-							"pm.test(\"Código de estado es 400 o 401\", function() {\r",
-							"    pm.expect(statusCode).to.be.oneOf([400, 401]);\r",
+							"pm.test(\"Status code is 401\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
 							"});\r",
+							"\r",
 							"// Imprimir el comentario en la consola de Newman\r",
 							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"
 						],

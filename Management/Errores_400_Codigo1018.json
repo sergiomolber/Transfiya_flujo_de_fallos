@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "bf17266c-f79d-4d70-aea0-d0d2e7d95667",
-		"name": "Management Errores 400 Y Codigo de error 1013",
+		"_postman_id": "b31f99b9-7361-4db1-87f6-378629454db7",
+		"name": "Management Errores 400 Y Codigo de error 1018",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-flujo-de-fallos~a9f67874-ef94-4331-b5a2-d649a940338c/collection/29460625-bf17266c-f79d-4d70-aea0-d0d2e7d95667?source=collection_link"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-flujo-de-fallos~a9f67874-ef94-4331-b5a2-d649a940338c/collection/29460625-b31f99b9-7361-4db1-87f6-378629454db7?source=collection_link"
 	},
 	"item": [
 		{
-			"name": "Management Errores 400 Y Codigo de error 1013",
+			"name": "Management Errores 400 Y Codigo de error 1018",
 			"event": [
 				{
 					"listen": "test",
@@ -18,15 +18,16 @@
 							"    pm.response.to.have.status(400);\r",
 							"});\r",
 							"\r",
-							"// captura la variable code es igual a 1013\r",
+							"// captura la variable code es igual a 1018\r",
 							"const responseJson = pm.response.json();\r",
 							"const code = responseJson.errors[0].code;\r",
 							"const codenum = Number(code);\r",
 							"pm.environment.set(\"codenum\", codenum);\r",
 							"\r",
-							"pm.test(\"La variable de entorno 'code' es 1013\", function () {\r",
-							"  pm.expect(codenum).to.equal(1013); // Verifica si la variable es igual a 1013\r",
+							"pm.test(\"La variable de entorno 'code' es 1018\", function () {\r",
+							"  pm.expect(codenum).to.equal(1018); // Verifica si la variable es igual a 1018\r",
 							"});\r",
+							"\r",
 							"\r",
 							"// Imprimir el comentario en la consola de Newman\r",
 							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"

@@ -1,5 +1,4 @@
 ﻿message-uid,api-key,client-id,client-secret,comentario
-wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfVwcc,f494c2f3-2e29-4766-b706-ec9313470472,236dfe767d6e6fa613058cc5cf5afe04,14f9f06fe6f5a995651f54bb9ec51371,Validar campo message-uid al exceder la longitud maxima (36 caracteres)
 c9813ba4-52ee-4c10-9228-a0268529d626,757ff2d4-d02e-4395-9941-a962ab162e28,65274d8ea32d7c1c3410a6b2792c277f,cbd2e69a83aa33abe80684a49260315a,Validar campo Api-Key al enviarlo errado
 c9813ba4-52ee-4c10-9228-a0268529d626,Contadordecaracteres.com es un cowoei,65274d8ea32d7c1c3410a6b2792c277f,cbd2e69a83aa33abe80684a49260315a,Validar campo Api-Key al exceder la longitud maxima (36 caracteres)
 c9813ba4-52ee-4c10-9228-a0268529d626,,65274d8ea32d7c1c3410a6b2792c277f,cbd2e69a83aa33abe80684a49260315a,Validar campo Api-Key al enviarlo vacio en el consumo del servicio
