@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "3543b386-ceb1-46b9-b55f-55f1b4430d0e",
+		"_postman_id": "56757925-7d16-4635-aa42-6f62fe1865fa",
 		"name": "Transfiya Sin enviar campos",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-automatizado~674619e0-4325-4250-a179-e2043dcef44b/collection/29460625-3543b386-ceb1-46b9-b55f-55f1b4430d0e?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Transfiya-flujo-de-fallos~a9f67874-ef94-4331-b5a2-d649a940338c/collection/29460625-56757925-7d16-4635-aa42-6f62fe1865fa?source=collection_link"
 	},
 	"item": [
 		{
@@ -631,7 +631,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \r\n    \"updated\": \"2023-12-20T05:58:55.475Z\",\r\n    \"amount\": 10,\r\n    \"symbol\": \"$tin\",\r\n    \"errorCode\": \"1013\",\r\n   \"errorDesc\": \"Prueba\"\r\n}   ",
+					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \r\n    \"updated\": \"2023-12-20T05:58:55.475Z\",\r\n    \"amount\": \"10\",\r\n    \"symbol\": \"$tin\",\r\n    \"errorCode\": \"1013\",\r\n   \"errorDesc\": \"Prueba\"\r\n}   ",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -699,7 +699,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \"created\": \"2023-12-20T05:58:55.475Z\",\r\n    \r\n    \"amount\": 10,\r\n    \"symbol\": \"$tin\",\r\n    \"errorCode\": \"1013\",\r\n   \"errorDesc\": \"Prueba\"\r\n}   ",
+					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \"created\": \"2023-12-20T05:58:55.475Z\",\r\n    \r\n    \"amount\": \"10\",\r\n    \"symbol\": \"$tin\",\r\n    \"errorCode\": \"1013\",\r\n   \"errorDesc\": \"Prueba\"\r\n}   ",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -837,7 +837,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \"created\": \"2023-12-20T05:58:55.475Z\",\r\n    \"updated\": \"2023-12-20T05:58:55.475Z\",\r\n    \"amount\": 10,\r\n    \r\n    \"errorCode\": \"1013\",\r\n   \"errorDesc\": \"Prueba\"\r\n}   ",
+					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \"created\": \"2023-12-20T05:58:55.475Z\",\r\n    \"updated\": \"2023-12-20T05:58:55.475Z\",\r\n    \"amount\": \"10\",\r\n    \r\n    \"errorCode\": \"1013\",\r\n   \"errorDesc\": \"Prueba\"\r\n}   ",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -975,7 +975,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \"created\": \"2023-12-20T05:58:55.475Z\",\r\n    \"updated\": \"2023-12-20T05:58:55.475Z\",\r\n    \"amount\": 10.00,\r\n    \"symbol\": \"$tin\",\r\n    \"errorCode\": \"1013\"\r\n\r\n}   ",
+					"raw": "{\r\n    \"transferId\":\"dbc977ef-1e72-41cd-ae87-fc8714be383b\",\r\n    \"tx_id\": \"XzwutTb9BlZbefE2N\",\r\n    \"status\": \"COMPLETED\",\r\n    \"type\": \"REQUEST\",\r\n    \"created\": \"2023-12-20T05:58:55.475Z\",\r\n    \"updated\": \"2023-12-20T05:58:55.475Z\",\r\n    \"amount\": \"10.00\",\r\n    \"symbol\": \"$tin\",\r\n    \"errorCode\": \"1013\"\r\n\r\n}   ",
 					"options": {
 						"raw": {
 							"language": "json"
